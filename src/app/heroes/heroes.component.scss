@@ -1,5 +1,5 @@
 .selected {
-  background-color: #CFD8DC !important;
+  background-color: black !important;
   color: white;
 }
 .heroes {
@@ -12,19 +12,19 @@
   cursor: pointer;
   position: relative;
   left: 0;
-  background-color: #EEE;
+  background-color: lavenderblush;
   margin: .5em;
   padding: .3em 0;
   height: 1.6em;
   border-radius: 4px;
 }
 .heroes li.selected:hover {
-  background-color: #BBD8DC !important;
+  background-color: black !important;
   color: white;
 }
 .heroes li:hover {
-  color: #607D8B;
-  background-color: #DDD;
+  color: white;
+  background-color: black;
   left: .1em;
 }
 .heroes .text {
@@ -36,7 +36,7 @@
   font-size: small;
   color: white;
   padding: 0.8em 0.7em 0 0.7em;
-  background-color: #607D8B;
+  background-color: black;
   line-height: 1em;
   position: relative;
   left: -1px;

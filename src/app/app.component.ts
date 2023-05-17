@@ -9,6 +9,7 @@ import { HEROES } from './mock-heroes';
 })
 
 export class AppComponent {
+title = "Tour of Heroes"
 
   heroes = HEROES;
   selectedHero?: Hero;
